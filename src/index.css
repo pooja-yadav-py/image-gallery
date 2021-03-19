@@ -1,0 +1,89 @@
+.cards{
+	width: 100%;
+	height: 100%;
+}
+.heading_style{
+	text-align:center;
+}
+.card{
+	margin:6%;
+	background-color: #fff;
+	width: 20%;
+	height: auto;
+	border-radius: 12px;
+	border:1px solid black;
+	box-shadow:12px 17px 12px -6px rgba(0,0.2,0,0.2);
+  text-align: center;
+  float:left;
+  margin-top: 2%;
+}
+.card_img{
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  z-index: 1;
+  background: rgba(0,0,0,.8);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  margin: 0;
+}
+.big-pic {
+    background: white;
+    border-radius: 5px; 
+    width: 600px;
+    margin: 100px auto;
+}
+   .big-pic img {
+   	margin-top: 0em;
+    margin-bottom: -1em;
+    width: 100%;
+}
+     .photo-title {
+      font-family: Arial;
+      margin-top: 10%;
+      text-align: left;
+}
+    
+    .close {
+    position: absolute;
+    top: 17%;
+    right: 27%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: red;
+    display: block;
+    cursor: pointer;
+    font-family: Arial;
+  }
+@media (max-width:768px){
+	.card{
+		float: none;
+		margin: 9%;
+    width: 80%;
+  }
+	.picture-big{
+		width: 80%;
+	}
+	.big-pic{
+		margin: 9%;
+		width: 80%;
+	}
+	.overlay{
+    position: fixed;
+    width: 100vw;
+		height: 100vh;
+	}
+  .overlay .close{
+    top: 7%;
+    right: 10%;
+  }
+
+	
+}
